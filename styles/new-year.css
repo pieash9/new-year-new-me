@@ -11,7 +11,7 @@
 .btn-primary{
     position: relative;
     background-color: rgb(255, 255, 255);
-    padding: 20px 30px;
+    padding: 15px 30px;
     border-radius: 5px;
     font-size: 20px;
     border: none;
@@ -21,11 +21,12 @@
 
 /* header style  */
 .header{
-    background-image: url(../images/banner/banner1.png);
+    background-image: url(../images/banner/banner1.png) ;
+    background-repeat: no-repeat;
     height: 700px;
+    width: 1600px;
 }
 .header-section{
-
     text-align: right;
     padding: 130px;
     position: absolute;
@@ -45,7 +46,7 @@
     background: #F15B22;
     border-radius: 5px;
     border: none;
-    padding: 24px;
+    padding: 15px 30px;
     font-size: 20px;
     color: #ffff;
 }
@@ -68,8 +69,13 @@
     color: #444343;
     margin-bottom: 15px;
 }
-.failure-point{
+.failure-point p{
     color: #444343;
+    padding-bottom: 8px;
+}
+.failure-point .fa-check{
+    color: rgb(12, 173, 202);
+    font-weight: bold;
 }
 /* Practice mindfulness */
 .mindfulness{
